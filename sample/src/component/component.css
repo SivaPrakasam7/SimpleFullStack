@@ -1,0 +1,36 @@
+/* Textfeild */
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+}
+
+.textbox{
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px var(--textcolor);
+    outline: none;
+    margin:none;
+    padding:0.3rem;
+    color:var(--textcolor);
+}
+
+/* Click */
+
+.click{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    box-shadow: 0px 0px 5px 0px var(--textcolor) inset;
+    color:var(--textcolor);
+    border-radius: 0.3rem;
+    width: fit-content;
+}
+
+/* Title */
+
+.title{
+    font-size: large;
+    align-self: center;
+}
