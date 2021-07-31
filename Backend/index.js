@@ -5,7 +5,7 @@ const app = express();
 
 // Mongoose connection
 
-mongoose.connect('mongodb+srv://siva:siva12345@cluster0.yudpn.mongodb.net/SociaLod?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+mongoose.connect('mongodb-url', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
     .then(res => { console.log('Database connected') })
     .catch(err => { console.log(err) });
 

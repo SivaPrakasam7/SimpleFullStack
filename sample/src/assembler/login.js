@@ -12,6 +12,7 @@ export default class Login extends Component {
                 <Textfield name="username" type="text" src="https://img.icons8.com/color/50/000000/user.png" txt="username" />
                 <Textfield name="password" type="password" src="https://img.icons8.com/color/50/000000/password.png" txt="password" />
                 <Click value="Sign In" click={login} />
+                {/* <div id="viewplate">ok</div> */}
             </form>
         )
     }
