@@ -9,6 +9,7 @@
 
 body{
   background-color: var(--bgcolor);
+  color: var(--textcolor);
 }
 
 .center{

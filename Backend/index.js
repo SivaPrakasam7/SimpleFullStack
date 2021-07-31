@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const express = require('express');
-const cors=require('cors');
+const cors = require('cors');
 const app = express();
 
 // Mongoose connection
@@ -29,8 +29,8 @@ app.get('/', (req, res) => {
 
 app.post('/login', (req, res) => {
     Usermodel.findOne({ username: req.body.username, password: req.body.password })
-        .then(info => { res.status(200).send(info) })
-        .catch(err => { res.status(400).send(err) });
+        .then(info => { return res.status(200).send(info) })
+        .catch(err => { return res.status(400).send(err) });
 })
 
 app.listen(5000, () => {
